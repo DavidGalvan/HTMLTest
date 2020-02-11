@@ -32,3 +32,16 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure subscription 1 (a52e488d-c148-41da-b6d5-d935b3ff7102)'
+    appType: 'webApp'
+    WebAppName: 'mysamples'
+    deployToSlotOrASE: true
+    ResourceGroupName: 'mysamples'
+    SlotName: 'production'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
+- task: PublishBuildArtifacts@1
