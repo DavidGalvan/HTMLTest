@@ -1,8 +1,11 @@
 ﻿.BigText {
-    font-size: xx-large;
+    font-size: xx-small;
 }
 
 #Div2 {
     color: white;
     background-color: blue;
+}
+.RedText {
+    color: #FF0000;
 }

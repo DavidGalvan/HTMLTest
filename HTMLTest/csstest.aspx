@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="Div1" class="BigText">
+    <div id="Div1" class="RedText">
         <p style="font-size: xx-small">Paragraph 1</p>
         <p>Paragraph 2</p>
         <p>Paragraph 3</p>
