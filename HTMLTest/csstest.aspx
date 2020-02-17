@@ -5,11 +5,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="styles/csstest.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="Div1">
-        <p>Paragraph 1</p>
+    <div id="Div1" class="BigText">
+        <p style="font-size: xx-small">Paragraph 1</p>
         <p>Paragraph 2</p>
         <p>Paragraph 3</p>
     </div>

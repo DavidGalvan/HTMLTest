@@ -1,1 +1,8 @@
-﻿
+﻿.BigText {
+    font-size: xx-large;
+}
+
+#Div2 {
+    color: white;
+    background-color: blue;
+}
