@@ -10,7 +10,11 @@
     <form id="form1" runat="server">
     <div>
     
+        <a href="http://google.com" target="_blank">the smart method</a>
+        <a href="http://bing.com" target="_blank">Excel</a>
     </div>
     </form>
+    <p>
+        <img alt="" src="images/pattern.jpg" /></p>
 </body>
 </html>

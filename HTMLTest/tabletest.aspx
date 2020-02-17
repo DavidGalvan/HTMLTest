@@ -9,6 +9,9 @@
         .auto-style1 {
             width: 100%;
         }
+        .auto-style2 {
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -25,8 +28,8 @@
             <td>cell4</td>
         </tr>
         <tr>
-            <td>cell5</td>
-            <td>cell6</td>
+            <td class="auto-style2">cell5</td>
+            <td class="auto-style2">cell6</td>
         </tr>
     </table>
 </body>
