@@ -10,7 +10,13 @@
     <form id="form1" runat="server">
     <div>
         <h2>This is the page heading</h2>
-    <i>This is <b>paragraph 1</b></i>
+    <p><i>This is <b>paragraph 1</b></i></p>
+        <p>This is paragraph 2</p>
+        <p>Mary had a little lamb<br />
+            its fleeece was white as snow.<br />
+            And everywhere Mary went <br />
+            her lamb was sure to go.
+        </p>
     </div>
     </form>
 </body>
