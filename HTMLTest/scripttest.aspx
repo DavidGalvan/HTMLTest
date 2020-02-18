@@ -11,7 +11,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <div id="Button">Click Me!</div>
+        <div id="Button" onclick="ClickMessage()">Click Me!</div>
     </div>
     </form>
 </body>

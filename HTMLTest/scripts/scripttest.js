@@ -1,3 +1,3 @@
 ﻿function ClickMessage() {
-    alert("Clicked!");
+    document.getElementById("Button").setAttribute("style", "background-color: red;");
 }
