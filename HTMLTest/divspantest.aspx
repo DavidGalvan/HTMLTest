@@ -9,7 +9,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
+        <div id="Div1">Div1</div>
+        <div id="Div2">Div2</div>
+        <span>Span1</span>
+        <span>Span2</span>
     </form>
 </body>
 </html>
